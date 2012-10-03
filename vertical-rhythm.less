@@ -1,28 +1,28 @@
-//
+/*
 // Vertical Rhythm
-// --------------------------------------------------
+// -------------------------------------------------- */
 
 
-// Variables
+/* Variables
 // -------------------------------------------
 // Put your custom variables here
 // If you use bootstrap, use those
-// and add your own for vertical rhythm 
+// and add your own for vertical rhythm  */
 
 @baseLineHeight:                  20px;
 
 
 
-// BASELINE 
+/* BASELINE 
 // --------
 // First, we establish a baseline to normalize typography.
-// Credit: baseline is based on Twitter Bootstrap's type.less  
+// Credit: baseline is based on Twitter Bootstrap's type.less */
 
 
-// Headings
+/* Headings
 // ------------------------------
 // normalize baselines for headings, remove 
-// this block if you use Twitter Bootstrap
+// this block if you use Twitter Bootstrap */
 
 h1, h2, h3, h4, h5, h6 {
   margin: (@baseLineHeight / 2) 0; 
@@ -44,10 +44,10 @@ h3 small { font-size: 14px; }
 h4 small { font-size: 14px; }
 
 
-// Lists
-// ------------------------------
+/* Lists
+// ------------------------------ */
 
-// Unordered and Ordered lists
+/* Unordered and Ordered lists */
 ul, ol {
   padding: 0;
   margin: 0 0 (@baseLineHeight / 2) 25px;
@@ -62,7 +62,7 @@ li {
   line-height: @baseLineHeight;
 }
 
-// Description Lists
+/* Description Lists */
 dl {
   margin-bottom: @baseLineHeight;
 }
@@ -76,15 +76,15 @@ dd {
 
 
 
-// VERTICAL RHYTHM
-// -------------------------------------------
+/* VERTICAL RHYTHM
+// ------------------------------------------- */
 
-// Add .rhythm to parent elements when you
-// wish to apply vertical rhythm to child elements
+/* Add .rhythm to parent elements when you
+// wish to apply vertical rhythm to child elements */
 
 
-// Body text & misc
-// ------------------------------
+/* Body text & misc
+// ------------------------------ */
 
 .rhythm {
   p,
@@ -96,8 +96,10 @@ dd {
   form {
     margin-bottom: @baseLineHeight;
   }
+}
 
-  // Remove margin from last element
+/* Remove margin from last element */
+.rhythm {
   p:last-child,
   ul:last-child,
   ol:last-child,
@@ -109,12 +111,12 @@ dd {
   }
 }
 
-// Headings & paragraphs
+/* Headings & paragraphs
 // ------------------------------
 // Here we apply special spacing to certain
 // typographical patterns. It is impossible to
 // predict the patterns you require for your
-// project, so this is only a starting point.
+// project, so this is only a starting point. */
 
 .rhythm {
   h1, h2, h3 {
@@ -146,10 +148,10 @@ dd {
   }
 }
 
-// Lists
+/* Lists
 // ------------------------------
 // Special classes for numbered, bulleted, 
-// and alpha lists. 
+// and alpha lists.  */
 
 .rhythm {
   h3 + ul.bullet-list,
@@ -170,15 +172,15 @@ dd {
     margin-top: (@baseLineHeight / 2);
   }
   .bullet-list {
-    list-style-type: disc; // bullets
+    list-style-type: disc; // bullets */
     padding-left: 1.25em;
   }
   .numbered-list {
-    list-style-type: decimal; // numbers
+    list-style-type: decimal; // numbers */
     padding-left: 1.5em;
   }
   .alpha-list {
-    list-style-type: lower-alpha; // letters
+    list-style-type: lower-alpha; // letters */
     padding-left: 1.5em;
   }
   .bullet-list li,
@@ -194,8 +196,8 @@ dd {
   }
 }
 
-// Blockquotes
-// ------------------------------
+/* Blockquotes
+// ------------------------------ */
 
 .rhythm {
   blockquote {
