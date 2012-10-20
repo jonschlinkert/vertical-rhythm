@@ -28,16 +28,16 @@ Author
 
 **Jon Schlinkert**
 
-+ http://twitter.com/jonschlinkert
-+ http://github.com/jonschlinkert
-+ http://www.jonschlinkert.com
++ [twitter.com/jonschlinkert](http://twitter.com/jonschlinkert)
++ [github.com/jonschlinkert](http://github.com/jonschlinkert)
++ [jonschlinkert.com](http://www.jonschlinkert.com)
 
 
 
 Credit & Attribution
 --------------------
 
-The baseline section in the vertical rhythm component is based on type.less from the excellent [Twitter Bootstrap](http://twitter.github.com/bootstrap).
+The baseline section in the vertical rhythm component is based on type.less from the excellent [Twitter Bootstrap](http://twitter.github.com/bootstrap). 
 
 
 
