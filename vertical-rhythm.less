@@ -1,42 +1,42 @@
-/*
+//
 // Vertical Rhythm
-// -------------------------------------------------- */
+// --------------------------------------------------
 
 
-/* Variables
+// Variables
 // -------------------------------------------
-// Put your custom variables here
-// If you use bootstrap, use those
-// and add your own for vertical rhythm  */
+// Put your custom variables here. If you use bootstrap, use those
+// and add your own for vertical rhythm
 
-@baseLineHeight:                  20px;
+@font-size-base:       14px;
+@line-height-base:     20px;
 
 
 
-/* BASELINE
+// BASELINE
 // --------
 // First, we establish a baseline to normalize typography.
-// Credit: baseline is based on Twitter Bootstrap's type.less */
+// Credit: baseline is based on Twitter Bootstrap's type.less
 
 
-/* Headings
+// Headings
 // ------------------------------
 // normalize baselines for headings, remove
-// this block if you use Twitter Bootstrap */
+// this block if you use Twitter Bootstrap
 
 h1, h2, h3, h4, h5, h6 {
-  margin: (@baseLineHeight / 2) 0;
+  margin: (@line-height-base / 2) 0;
   line-height: 1;
   small {
     line-height: 1;
   }
 }
-h1 { font-size: 36px; line-height: (@baseLineHeight * 2); }
-h2 { font-size: 30px; line-height: (@baseLineHeight * 2); }
-h3 { font-size: 24px; line-height: (@baseLineHeight * 2); }
-h4 { font-size: 18px; line-height: @baseLineHeight; }
-h5 { font-size: 14px; line-height: @baseLineHeight; }
-h6 { font-size: 12px; line-height: @baseLineHeight; }
+h1 { font-size: 36px; line-height: (@line-height-base * 2); }
+h2 { font-size: 30px; line-height: (@line-height-base * 2); }
+h3 { font-size: 24px; line-height: (@line-height-base * 2); }
+h4 { font-size: 18px; line-height:  @line-height-base; }
+h5 { font-size: 14px; line-height:  @line-height-base; }
+h6 { font-size: 12px; line-height:  @line-height-base; }
 
 h1 small { font-size: 24px; }
 h2 small { font-size: 18px; }
@@ -44,13 +44,13 @@ h3 small { font-size: 14px; }
 h4 small { font-size: 14px; }
 
 
-/* Lists
-// ------------------------------ */
+// Lists
+// ------------------------------
 
-/* Unordered and Ordered lists */
+// Unordered and Ordered lists
 ul, ol {
   padding: 0;
-  margin: 0 0 (@baseLineHeight / 2) 25px;
+  margin: 0 0 (@line-height-base / 2) 25px;
 }
 ul ul,
 ul ol,
@@ -59,32 +59,32 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: @baseLineHeight;
+  line-height: @line-height-base;
 }
 
-/* Description Lists */
+// Description Lists
 dl {
-  margin-bottom: @baseLineHeight;
+  margin-bottom: @line-height-base;
 }
 dt,
 dd {
-  line-height: @baseLineHeight;
+  line-height: @line-height-base;
 }
 dd {
-  margin-left: (@baseLineHeight / 2);
+  margin-left: (@line-height-base / 2);
 }
 
 
 
-/* VERTICAL RHYTHM
-// ------------------------------------------- */
+// VERTICAL RHYTHM
+// -------------------------------------------
 
-/* Add .rhythm to parent elements when you
-// wish to apply vertical rhythm to child elements */
+// Add .rhythm to parent elements when you
+// wish to apply vertical rhythm to child elements
 
 
-/* Body text & misc
-// ------------------------------ */
+// Body text & misc
+// ------------------------------
 
 .rhythm {
   p,
@@ -94,11 +94,11 @@ dd {
   address,
   pre,
   form {
-    margin-bottom: @baseLineHeight;
+    margin-bottom: @line-height-base;
   }
 }
 
-/* Remove margin from last element */
+// Remove margin from last element
 .rhythm {
   p:last-child,
   ul:last-child,
@@ -111,65 +111,65 @@ dd {
   }
 }
 
-/* Headings & paragraphs
+// Headings & paragraphs
 // ------------------------------
 // Here we apply special spacing to certain
 // typographical patterns. It is impossible to
 // predict the patterns you require for your
-// project, so this is only a starting point. */
+// project, so this is only a starting point.
 
 .rhythm {
   h1, h2, h3 {
-    margin-bottom: (@baseLineHeight / 4);
+    margin-bottom: (@line-height-base / 4);
   }
   h1 + h2 {
-    margin-top: @baseLineHeight;
+    margin-top: @line-height-base;
   }
   h4 {
-    margin-bottom: (@baseLineHeight / 6);
+    margin-bottom: (@line-height-base / 6);
   }
   h1 + p,
   p + h4 {
-    margin-top: (@baseLineHeight * 1.5);
+    margin-top: (@line-height-base * 1.5);
   }
   h2 + h3,
   h2 + h4 {
-    margin-top: @baseLineHeight;
+    margin-top: @line-height-base;
   }
   h2 + p,
   h3 + p {
-    margin-top: (@baseLineHeight / 2);
+    margin-top: (@line-height-base / 2);
   }
   p + h2 {
-    margin-top: (@baseLineHeight * 3);
+    margin-top: (@line-height-base * 3);
   }
   h3 + h4 {
-    margin-top: (@baseLineHeight * 2);
+    margin-top: (@line-height-base * 2);
   }
 }
 
-/* Lists
+// Lists
 // ------------------------------
 // Special classes for numbered, bulleted,
-// and alpha lists.  */
+// and alpha lists.
 
 .rhythm {
   h3 + ul.bullet-list,
   h3 + ul.numbered-list,
   h3 + ul.alpha-list,
   h3 + ol.numbered-list {
-    margin-top: (@baseLineHeight / 2);
+    margin-top: (@line-height-base / 2);
   }
   ul.bullet-list + h3,
   ul.numbered-list + h3,
   ul.alpha-list + h3 {
-    margin-top: (@baseLineHeight * 2);
+    margin-top: (@line-height-base * 2);
   }
   h4 + ul.bullet-list,
   h4 + ul.numbered-list,
   h4 + ul.alpha-list,
   h4 + ol.numbered-list {
-    margin-top: (@baseLineHeight / 2);
+    margin-top: (@line-height-base / 2);
   }
   .bullet-list {
     list-style-type: disc; // bullets
@@ -186,7 +186,7 @@ dd {
   .bullet-list li,
   .numbered-list li,
   .alpha-list li {
-    margin-bottom: (@baseLineHeight / 2);
+    margin-bottom: (@line-height-base / 2);
   }
   .condensed-list li {
     margin-bottom: 0;
@@ -196,12 +196,12 @@ dd {
   }
 }
 
-/* Blockquotes
-// ------------------------------ */
+// Blockquotes
+// ------------------------------
 
 .rhythm {
   blockquote {
-    padding: @baseLineHeight @baseLineHeight 0;
+    padding: @line-height-base @line-height-base 0;
   }
 }
 
