@@ -87,29 +87,17 @@ dd {
 // ------------------------------
 
 .rhythm {
-  p,
-  ul,
-  ol,
-  blockquote,
-  address,
-  pre,
-  form {
+  p, ul, ol, blockquote, address, pre, form {
     margin-bottom: @line-height-base;
+
+    // And remove margin from last element
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
-// Remove margin from last element
-.rhythm {
-  p:last-child,
-  ul:last-child,
-  ol:last-child,
-  blockquote:last-child,
-  address:last-child,
-  pre:last-child,
-  form:last-child {
-    margin-bottom: 0;
-  }
-}
+
 
 // Headings & paragraphs
 // ------------------------------
