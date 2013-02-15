@@ -1,30 +1,36 @@
-Vertical Rhythm
-===============
+# Vertical Rhythm
 
-LESS and CSS boilerplates for creating typographical vertical rhythm in your project. Made to be compatible with Twitter Bootstrap as LESS component, but it can also be used standalone for any project.
-
-This is just a starting point and will need to be customized for your needs.
+LESS and CSS starting point for vertical rhythm with your typography. Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. That means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, but it can also be used standalone for any project.
 
 
+## How does this work?
 
-Get Started
------------
+In **vertical-rhythm.less/css** you will find two sections:
+  * TYPOGRAPHY BASE: If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.less` into your project. This section is not strictly necessary for creating vertical rhythm, but they're a great starting point for any project.
+  * VERTICAL RHYTHM: The `.rhythm` styles are designed with sensible defaults that you should be able to use as is. Expect to use these styles as examples though, because every project is different and you will probably need to customize before you achieve vertical rhythm with the typography in your own project.
+
+
+> This is just a starting point, but it should get you to your goal faster than starting from scratch. Please customize it to work with your own project.
+
+
+
+## Get Started
 
 Clone the repo, `git clone git://github.com/jonschlinkert/vertical-rhythm.git`, or [download the latest version](https://github.com/jonschlinkert/vertical-rhythm/zipball/master).
 
 
 
-Issues, Requests and Contributions
-----------------------------------
 
-Have a suggestion, requests or correction? Please create an issue here https://github.com/jonschlinkert/vertical-rhythm/issues
+## Issues, Requests and Contributions
 
-Contributions and requests are very welcome. Please be comment the code in your requests so I can easily and quickly evaluate the code. 
+Have a suggestion, requests or correction? Please [create an issue](https://github.com/jonschlinkert/vertical-rhythm/issues). Contributions and requests are very welcome. Please be comment the code in your requests so I can easily and quickly evaluate the code.
+
+I'd like to add SASS/SCSS and Stylus versions, so if you want to contribute this before I have a chance to do it, I would be forever grateful.
 
 
 
-Author
-------
+
+## Author
 
 **Jon Schlinkert**
 
@@ -34,15 +40,13 @@ Author
 
 
 
-Credit & Attribution
---------------------
+## Credit & Attribution
 
-The baseline section in the vertical rhythm component is based on type.less from the excellent [Twitter Bootstrap](http://twitter.github.com/bootstrap). 
-
+The baseline section in the vertical rhythm component is based on type.less from the excellent [Bootstrap](http://twitter.github.com/bootstrap), by Mark Otto and Jacob Thornton.
 
 
-Copyright and license
----------------------
+
+## Copyright and license
 
 Copyright 2012 Jon Schlinkert
 
