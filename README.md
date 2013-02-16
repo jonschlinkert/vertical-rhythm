@@ -71,7 +71,7 @@ I'd like to add SASS/SCSS and Stylus versions, so if you want to contribute this
 
 ## Credit & Attribution
 
-> The baseline section in the vertical rhythm component is based on type.less from the excellent [Bootstrap](http://twitter.github.com/bootstrap), by Mark Otto and Jacob Thornton.
+> The baseline section in the vertical rhythm component is based on type.less from the excellent [Bootstrap](http://twitter.github.com/bootstrap), by [Mark Otto](https://github.com/mdo) and [Jacob Thornton](https://github.com/fat).
 
 
 
