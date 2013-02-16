@@ -52,10 +52,10 @@ The `.rhythm` styles are designed with sensible defaults that you should be able
 
   * Have a suggestion, requests or correction? Please [create an issue](https://github.com/jonschlinkert/vertical-rhythm/issues).
   * Contributions and requests are very welcome.
-  * Please be comment the code in your requests so I can easily and quickly evaluate the code.
+  * Please comment the code in your requests so I can easily and quickly evaluate it.
+
 
 I'd like to add SASS/SCSS and Stylus versions, so if you want to contribute this before I have a chance to do it, I would be forever grateful.
-
 
 
 
