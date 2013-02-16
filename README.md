@@ -4,6 +4,20 @@ LESS and CSS starting point for vertical rhythm with your typography.
 
 
 
+Example, **list styles**
+
+```scss
+.rhythm {
+  h3 + ul.bullet-list,
+  h3 + ul.numbered-list,
+  h3 + ul.alpha-list,
+  h3 + ol.numbered-list {
+    margin-top: (@line-height-base / 2);
+  }
+}
+```
+
+
 
 Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. This means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, but it can also be used standalone for any project.
 
