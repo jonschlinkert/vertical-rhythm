@@ -1,24 +1,37 @@
 # Vertical Rhythm
 
-LESS and CSS starting point for vertical rhythm with your typography. Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. That means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, but it can also be used standalone for any project.
+LESS and CSS starting point for vertical rhythm with your typography.
+
+
+
+
+Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. This means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, but it can also be used standalone for any project.
 
 
 ## How does this work?
 
 In **vertical-rhythm.less/css** you will find two sections:
-  * TYPOGRAPHY BASE: If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.less` into your project. This section is not strictly necessary for creating vertical rhythm, but they're a great starting point for any project.
-  * VERTICAL RHYTHM: The `.rhythm` styles are designed with sensible defaults that you should be able to use as is. Expect to use these styles as examples though, because every project is different and you will probably need to customize before you achieve vertical rhythm with the typography in your own project.
+
+
+### Typography Base
+
+If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.less` into your project. This section is not strictly necessary for creating vertical rhythm, but they're a great starting point for any project.
+
+### Vertical Rhythm
+
+The `.rhythm` styles are designed with sensible defaults that you should be able to use as is. Expect to use these styles as examples though, because every project is different and you will probably need to customize before you achieve vertical rhythm with the typography in your own project.
 
 
 > This is just a starting point, but it should get you to your goal faster than starting from scratch. Please customize it to work with your own project.
 
 
 
+
+
 ## Get Started
 
-Clone the repo, `git clone git://github.com/jonschlinkert/vertical-rhythm.git`, or [download the latest version](https://github.com/jonschlinkert/vertical-rhythm/zipball/master).
-
-
+  * clone the repo, `git clone git://github.com/jonschlinkert/vertical-rhythm.git`
+  * or [download the latest version](https://github.com/jonschlinkert/vertical-rhythm/zipball/master)
 
 
 ## Issues, Requests and Contributions
