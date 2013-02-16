@@ -19,7 +19,7 @@ Example, **list styles**
 
 
 
-Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. This means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, but it can also be used standalone for any project.
+Designed to be mostly framework agnostic, although the baseline styles for normalizing are borrowed from Bootstrap. This means `vertical-rhythm.less` will make a good drop-in component for Bootstrap, _but it can also be used standalone for any project_.
 
 
 ## How does this work?
@@ -27,11 +27,11 @@ Designed to be mostly framework agnostic, although the baseline styles for norma
 In **vertical-rhythm.less/css** you will find two sections:
 
 
-### Typography Base
+#### I. Typography Base
 
 If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.less` into your project. This section is not strictly necessary for creating vertical rhythm, but they're a great starting point for any project.
 
-### Vertical Rhythm
+#### II. Vertical Rhythm
 
 The `.rhythm` styles are designed with sensible defaults that you should be able to use as is. Expect to use these styles as examples though, because every project is different and you will probably need to customize before you achieve vertical rhythm with the typography in your own project.
 
@@ -50,7 +50,9 @@ The `.rhythm` styles are designed with sensible defaults that you should be able
 
 ## Issues, Requests and Contributions
 
-Have a suggestion, requests or correction? Please [create an issue](https://github.com/jonschlinkert/vertical-rhythm/issues). Contributions and requests are very welcome. Please be comment the code in your requests so I can easily and quickly evaluate the code.
+  * Have a suggestion, requests or correction? Please [create an issue](https://github.com/jonschlinkert/vertical-rhythm/issues).
+  * Contributions and requests are very welcome.
+  * Please be comment the code in your requests so I can easily and quickly evaluate the code.
 
 I'd like to add SASS/SCSS and Stylus versions, so if you want to contribute this before I have a chance to do it, I would be forever grateful.
 
@@ -69,7 +71,7 @@ I'd like to add SASS/SCSS and Stylus versions, so if you want to contribute this
 
 ## Credit & Attribution
 
-The baseline section in the vertical rhythm component is based on type.less from the excellent [Bootstrap](http://twitter.github.com/bootstrap), by Mark Otto and Jacob Thornton.
+> The baseline section in the vertical rhythm component is based on type.less from the excellent [Bootstrap](http://twitter.github.com/bootstrap), by Mark Otto and Jacob Thornton.
 
 
 
