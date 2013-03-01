@@ -5,7 +5,7 @@
 This is just a starting point, but it should get you to your goal faster than starting from scratch. Please customize it to work with your own project.
 
 
-Example, **list styles**
+**Example list styles**
 
 ```scss
 .rhythm {
