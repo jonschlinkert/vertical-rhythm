@@ -1,0 +1,32 @@
+{
+  "name": "vertical-rhythm",
+  "description": "LESS/CSS starting point for creating typographical vertical rhythm in your project.",
+  "version": "0.1.0",
+  "homepage": "http://github.com/jonschlinkert/vertical-rhythm",
+  "author": {
+    "name": "Jon Schlinkert",
+    "email": "jon@sellside.com",
+    "url": "http://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonschlinkert/vertical-rhythm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/vertical-rhythm/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jonschlinkert/vertical-rhythm/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "component",
+    "vertical rhythm",
+    "vertical-rhythm",
+    "typographical",
+    "typography",
+    "type"
+  ]
+}
