@@ -1,7 +1,7 @@
 {
   "name": "vertical-rhythm",
-  "description": "LESS/CSS starting point for creating typographical vertical rhythm in your project.",
-  "version": "0.1.0",
+  "description": "Put some vertical rhythm in your CSS. LESS, Stylus and SASS versions included.",
+  "version": "0.3.0",
   "homepage": "http://github.com/jonschlinkert/vertical-rhythm",
   "author": {
     "name": "Jon Schlinkert",
@@ -22,11 +22,23 @@
     }
   ],
   "keywords": [
-    "component",
-    "vertical rhythm",
-    "vertical-rhythm",
+    "compass vertical rhythm",
+    "css typography",
+    "css vertical rhythm",
+    "font size setting",
+    "less typography",
+    "less vertical rhythm",
+    "scss vertical rhythm",
+    "sass vertical rhythm",
+    "stylus vertical rhythm",
+    "type",
     "typographical",
+    "typography vertical rhythm",
     "typography",
-    "type"
+    "vertical compass",
+    "vertical rhythm example",
+    "vertical rhythm css",
+    "vertical rhythm generator",
+    "vertical-rhythm"
   ]
 }
