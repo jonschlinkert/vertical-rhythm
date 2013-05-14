@@ -1,7 +1,7 @@
 {
   "name": "vertical-rhythm",
   "description": "Put some vertical rhythm in your CSS. LESS, Stylus and SASS versions included.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "http://github.com/jonschlinkert/vertical-rhythm",
   "author": {
     "name": "Jon Schlinkert",

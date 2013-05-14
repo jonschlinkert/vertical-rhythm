@@ -40,13 +40,11 @@ In **vertical-rhythm.{less,styl,sass,css}** you will find two sections:
 
 
 #### I. Typography Base
-If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.{less,styl,sass,css}` into your project. This section is not strictly necessary for creating vertical rhythm, but they're a great starting point for any project.
+If you use Bootstrap or Foundation, just get rid these base styles before you drop `vertical-rhythm.{less,styl,sass,css}` into your project. This section is not strictly necessary for creating vertical rhythm, but the styles here are a great starting point for any project.
 
 
 #### II. Vertical Rhythm
 The `.rhythm` styles are designed with sensible defaults that you should be able to use as is. Expect to use these styles as examples though, because every project is different and you will probably need to customize before you achieve vertical rhythm with the typography in your own project.
-
-
 
 
 ## Get Started
@@ -67,7 +65,6 @@ The `.rhythm` styles are designed with sensible defaults that you should be able
 + [twitter.com/jonschlinkert](http://twitter.com/jonschlinkert)
 + [github.com/jonschlinkert](http://github.com/jonschlinkert)
 + [jonschlinkert.com](http://www.jonschlinkert.com)
-
 
 
 ## Credit & Attribution
